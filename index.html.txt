@@ -1,0 +1,124 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Cano - Digital Marketing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+        }
+        .main h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .resume-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #0779e4;
+            font-weight: bold;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Emily Cano - Digital Marketing</h1>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <section id="about">
+                <h1 class="section-title">About Me</h1>
+                <p>Hello and welcome to my website! My name is Emily Cano, and I'm a senior full-time student at Brigham Young University–Hawaii. Currently, I'm pursuing a BA in Business Management- Marketing and plan to graduate in April 2024. I also have a minor in Visual Arts and Natural Sciences. I enjoy photography, graphic design, and painting.</p>
+                <p>I have experience in digital marketing, and I love exploring the latest trends and techniques to help businesses reach their full potential. When it comes to working, I thrive in team environments, and I believe that collaboration is the key to success. In addition, I believe my strong organizational and planning skills, will help deliver high-quality results to your events or business.</p>
+                <p>Throughout my academic career, I've gained valuable experience working in intercultural environments, which has helped me develop a deep appreciation for diverse perspectives and unique insights. I'm passionate about learning about other cultures, and I love to travel whenever I can.</p>
+                <p>I'm excited to share my experiences and insights with you, and thank you for taking the time to visit!</p>
+            </section>
+
+            <section id="portfolio">
+                <h1 class="section-title">Portfolio</h1>
+                <p>Portfolio content goes here. You can add your projects, images, and descriptions.</p>
+            </section>
+
+            <section id="resume">
+                <h1 class="section-title">Resume</h1>
+                <p>I've attached it as a file. You can <a href="/mnt/data/EMILY CANO RESUME.APCC.pdf" class="resume-link" download>download my resume here</a>.</p>
+            </section>
+
+            <section id="contact">
+                <h1 class="section-title">Contact</h1>
+                <p>Email: <a href="mailto:emilymcano@gmail.com">emilymcano@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/emilycano320/" target="_blank">Emily Cano</a></p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Emily Cano. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+```
